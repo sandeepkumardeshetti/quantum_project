@@ -1,0 +1,140 @@
+
+.marquee-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding: 2rem;
+    margin: 2rem;
+   
+    
+  }
+
+
+
+
+  .marquee-container h2{
+    color: #29335c;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+
+@media (min-width: 50em) {
+   .marquee-container h1{
+      font-size: 20px;
+    }
+}
+
+  .marquee-container p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .scroll-parent {
+    position: relative;
+    width: 100%;
+    height: 7rem;
+    padding: 2rem 0;
+    overflow-x: hidden;
+    margin: 0 auto;
+    
+  }
+
+  @media (min-width: 50em) {
+    .scroll-parent{
+      
+      width: 70%;
+    }
+  }
+  
+
+  
+  .scroll-element {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  
+  .scroll-element img {
+    width: 20%;
+    /* height: 10px; */
+    margin: 1rem;
+    
+  }
+
+  
+
+  @media (min-width: 50em) {
+   .scroll-element img {
+      width: 15%;
+    }
+  }
+  
+  .primary {
+    animation: primary 10s linear infinite;
+  }
+  
+.secondary{
+  animation: secondary 10s linear infinite;
+  opacity: 0;
+}
+
+  @media (min-width: 50em) {
+    .secondary {
+      animation: secondary 10s linear infinite;
+      opacity: 1;
+    }
+  }
+ 
+
+  .primary2{
+    animation: primary 10s linear infinite;
+    animation-direction: reverse;
+  }
+
+  .secondary2 {
+    animation: secondary 10s linear infinite;
+    animation-direction: reverse;
+    opacity: 0;
+  }
+
+  @media (min-width: 50em) {
+    .secondary2 {
+      animation: secondary 10s linear infinite;
+      animation-direction: reverse;
+      opacity: 1;
+    }
+  }
+
+  
+  @keyframes primary {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -100%;
+    }
+  }
+  
+  @keyframes secondary {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 0%;
+    }
+  }
+
+
+
+  /* Animated Text */
+

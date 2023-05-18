@@ -1,0 +1,38 @@
+
+  .nav__menu-item {
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+   
+  
+    &:hover {
+      background-color: #1ae6d5;
+  
+      .nav__submenu {
+        display: block;
+      }
+    }
+  }
+      
+  .nav__submenu {
+    font-weight: 300;
+    text-transform: none;
+    display: none;
+    position: absolute;
+    min-width: 280px;
+    background-color: #1ae6d5;
+    margin-top: .5rem;
+    
+  }
+      
+  .nav__submenu-item {
+    border-bottom: 1px solid  var(--blue-color);
+    padding: .5rem;
+    width: 100%;
+    cursor: pointer;
+    font-size: .5rem;
+  }
+  
+  .nav__submenu-item a{
+    font-size: 16px !important;
+  }

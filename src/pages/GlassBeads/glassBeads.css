@@ -1,0 +1,274 @@
+
+.retro-mark-products-con{
+    margin-top: 2rem;
+}
+
+
+.glass-beads{
+  background-color: hsl(240, 80%, 89%);
+}
+
+.retro-mark-main-heading{
+    text-align: center;
+}
+
+.arrow-container{
+    text-align: center;
+}
+
+/* animated text */
+
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    gap: 24px;
+    padding: 24px;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+  /* Animated Text */
+
+  
+.animated-svg {
+    font-family: 'Russo One', sans-serif;
+    /* position: absolute;  */
+    margin-top: 4.5rem;
+    
+    width: 100%; height: 100%;
+    /* padding: .5rem; */
+  }
+  svg text {
+    text-transform: uppercase;
+    animation: stroke 5s infinite alternate;
+    stroke-width: 2;
+    stroke: #365fa0;
+    font-size: 140px;
+  }
+  @keyframes stroke {
+    0%   {
+      fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1);
+      stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+    }
+    70%  {fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1); }
+    80%  {fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+    100% {
+      fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0); 
+      stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+    }
+  }
+
+
+  .road-marking-heading{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  /* .thermoplastic-products{
+    margin-top: 2rem;
+  } */
+
+  .road-marking-heading{
+    color: var(--blue-color);
+  }
+
+  .beads-image{
+    height: 400px;
+    aspect-ratio: 1/1.5;
+    margin: 1rem auto;
+    padding: .5rem;
+
+  }
+
+  @media screen and (min-width: 40em){
+        .beads-image{
+            height: 600px;
+        }
+  }
+
+
+.beads-des-container{
+  width: 100%;background-color: var(--blue-color);
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem 1rem;
+}
+
+
+.beads-des-container h2{
+  color: #fff;
+  font-size: 2rem;
+}
+  .beads-description{
+    max-width: 1200px;
+    color :#fff ;
+    font-weight: 600;
+    margin: 1rem auto;
+  
+    letter-spacing: 1.5px;
+    padding: 1rem ;
+    border: 1px solid var(--blue-color);
+    border-radius: 10px;
+    
+    
+
+  }
+
+  .beads-diagram{
+    width:90%;
+    max-width: 700px;
+    margin: 1rem auto;
+    height: 300px;
+    border-radius: 150px;
+    border-right: 70px solid var(--blue-color);
+  }
+
+  
+
+.drop-range-container{
+    text-align: center;
+}
+
+
+.drop-range-container h2{
+    margin-top: 1rem;
+}
+
+
+.beads-btn-group{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.beads-btn-group button{
+    
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    border: 2px solid var(--blue-color);
+    outline: none;
+    background: transparent;
+    font-weight: 700;
+    color: #365fa0;
+    width: 250px;
+}
+
+
+.beads-btn-group button:hover{
+    background-color: antiquewhite;
+    border: none;
+}
+
+
+
+
+/* Retro Primer Code */
+
+
+
+.primer-content-con{
+  max-width: 800px;
+  margin: 2rem auto;
+  padding-bottom: 1rem;
+  border-radius: 12px;
+  background-color: #79b0a1;
+  border: none;
+
+}
+.image-text-con{
+display: flex;
+gap: 1.5rem;
+align-items: center;
+flex-wrap: wrap;
+border-radius: 10px;
+background-color: #fff;
+border-bottom-right-radius: 0;
+}
+
+.primer-content-con p{
+margin-top: 1rem;
+margin-left: .5rem;
+color: #fff;
+font-weight: 700;
+}
+
+.image-text-con img{
+    aspect-ratio: 1/.8;
+    /* max-width: 300px; */
+    width: 100%;
+    flex-basis: 40%;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    
+    
+}
+
+@media screen and (min-width: 40em) {
+  .image-text-con img{
+    width: 40%;
+  }
+  .image-text-con h2{
+    width: 55%;
+    flex-basis: 55%;
+  }
+}
+
+
+.image-text-con h2{
+
+width: 100%;
+
+font-size: 1rem;
+padding: .5rem;
+color: #365fa0;
+text-align: center;
+}
+
+.retro-image-group{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.retro-image-group img{
+    width: 100%;
+    
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 30em) {
+    .retro-image-group img{
+      width: 150px;
+      height: 150px;
+    }
+}
+
+
+.retro-image-group button{
+
+  padding: .8rem 2rem;
+  border-radius: 20px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  color: #365fa0;
+}
+
+.retro-image-group button:hover{
+background-color: aliceblue;
+}

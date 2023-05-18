@@ -1,0 +1,248 @@
+.product-table-container{
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    width: 100%;
+}
+.product-table-container h2{
+    color: #29335c;
+}
+
+@media (min-width: 50em){
+    .product-table-container{
+        width: 80%;
+    }
+}
+.product-table-container p{
+    text-align: start;
+    margin-bottom: 2rem;
+    color: #29335c;
+   
+   
+}
+
+.product-heading{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+
+.key-features-container{
+  text-align: center;
+}
+
+
+.key-features-container h2{
+  margin-top: 1rem;
+}
+
+
+.features-btn-group{
+  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.features-btn-group button{
+  
+  padding: 1rem 3rem;
+  border-radius: 10px;
+  border: 2px solid var(--blue-color);
+  outline: none;
+  background: transparent;
+  font-weight: 700;
+  color: #365fa0;
+  width: 250px;
+}
+
+
+.features-btn-group button:hover{
+  background-color: antiquewhite;
+  border: none;
+}
+
+
+
+
+.table-images-con{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+}
+
+
+.retro-mark-pro-img{
+    max-width: 60%;
+    max-width: min(600px,100%);
+    margin: 1rem auto;
+    rotate: 0deg;
+    
+    
+}
+
+/* @media (min-width: 40em){
+    .retro-mark-pro-img{
+       
+        rotate: 90deg;
+
+    }
+} */
+
+
+.table-image{
+    overflow-x: scroll;
+    width: min(100%,900px);
+    margin-top: 1rem;
+}
+
+.color-disclaimer{
+    font-weight: bold;
+    color: #29335c;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+/* colored Text */
+
+
+/* .wrapper.six{
+    background-color: #222222;
+  } */
+
+
+  .wrapper{
+    background-color: #222222;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .flicker {
+    font-size: 2rem;
+    font-family: 'Merienda', sans-serif;
+    margin: 1rem auto;
+    color: #fffefe61;
+    background: -webkit-gradient(linear, left top, right top, from(#e6e6e6), to(#1d1c1c), color-stop(0.8, #ffffff)) no-repeat;
+    background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.8, #fff)) no-repeat;
+    background-size: 110px 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: flick 1.5s infinite;
+  }
+  @keyframes flick {
+    0% {
+      background-position: top left;
+    }
+    100% {
+      background-position: top right;
+    }
+  }
+  
+
+  /* Animated button Groups */
+
+
+/* 3 */
+.btn-3 {
+    background: rgb(0,172,238);
+  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    
+  }
+  .btn-3 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-3:before,
+  .btn-3:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+     background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+  }
+  .btn-3:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-3:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3:hover{
+     background: transparent;
+    box-shadow: none;
+  }
+  .btn-3:hover:before {
+    height: 100%;
+  }
+  .btn-3:hover:after {
+    width: 100%;
+  }
+  .btn-3 span:hover{
+     color: rgba(2,126,251,1);
+  }
+  .btn-3 span:before,
+  .btn-3 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+     background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+  }
+  .btn-3 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-3 span:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3 span:hover:before {
+    height: 100%;
+  }
+  .btn-3 span:hover:after {
+    width: 100%;
+  }
+
+  .products-btn-con{
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+
+  .custom-btn {
+    width: auto;
+    height: 60px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    color: #29335c;font-weight: bold;
+  }
+  

@@ -1,0 +1,29 @@
+
+.company-values{
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--blue-color);
+}
+
+.company-values .title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+
+.company-values .mission{
+    display: block;
+    color: #fff;
+}
+
+.company-values .quote{
+    display: block;
+    margin: 1.2rem 0;
+    color: #fff;
+}
+
+.company-values strong{
+    color: #fff;
+    display: block;
+}

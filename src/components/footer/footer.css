@@ -1,0 +1,63 @@
+
+.footer{
+  /* background-color: var(--blue-color); */
+  /* background-color: #1ae6d5; */
+  background-color: #87f8ae;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo-text{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 40em){
+    .logo-text{
+       
+    width: max(33%, 250px);
+
+    }
+}
+
+.quantum-logo{
+    height: 50px;
+    width: 150px;
+    aspect-ratio: 1/1;
+    padding: 5px;
+    margin-bottom: 1rem;
+}
+
+.logo-text p{
+    color: var(--blue-color);
+    font-weight: bold;
+   
+}
+
+.footer-links-con h2{
+    color: var(--blue-color);
+}
+
+.footer-links-con p{
+    color: var(--blue-color);
+    margin-bottom: .5rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.social-links{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: row;
+    
+}
+
+@media screen and (min-width: 33em){
+    .social-links{
+       
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,227 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300);
+
+/* $blue:#8DD9FF;
+$yellow:#FFDA00; */
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.intro {
+  position: relative;
+  height: auto;
+  transform: translateZ(0);
+  background-image: linear-gradient(35deg, #8DD9FF, #FFDA00);
+  
+ 
+}
+
+
+.intro  img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 3;
+    mix-blend-mode: multiply;
+    height: 90vh;
+    object-fit: cover;
+  }
+
+.intro .caption {
+  position: absolute;
+  bottom: 25%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+  color: white;
+  
+  /* h1 {
+    display: inline-block;
+    width: 70%;
+    font-size: 6vw;
+    font-weight: 100;
+  } */
+}
+
+.intro .caption h1{
+    display: inline-block;
+    width: 70%;
+    font-size: 6vw;
+    font-weight: 600;
+}
+
+
+
+.intro .overlay {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  object-fit: cover;
+  display: none;
+}
+
+@media screen and (min-width: 70em) {
+    .intro .overlay {
+display: block;
+    }
+}
+
+
+/* .intro .overlay svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  } */
+
+  .wave-svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* z-index: 3; */
+  }
+
+
+
+.copy {
+    position:relative;
+    bottom:40px;
+  width: 70%;
+  background-color: #edf0f8;
+  max-width: 60rem;
+  height: 200%;
+  margin: 0 auto;
+  
+  padding: 1rem;
+  color: mix(black, #8DD9FF, 50%);
+  font-weight: 300;
+  border-radius: 15px;
+  
+ 
+}
+
+.copy p {margin-bottom: 1.5rem; text-align: center;
+color: #0a0028;}
+
+
+.copy .teaser {
+    font-size: .8rem;
+  text-align: center;
+  color: #0a0028;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 40em){
+    .copy p{
+        
+        font-size: 1.3rem;
+    }
+    .copy .teaser{
+       font-size: 1.6rem;
+    }
+}
+
+/* .road-image-bg-services{
+    max-width: 100%;
+    height: 30vh;
+} */
+
+.s-button-con{
+    text-align: center;
+    
+}
+
+.s-button-con button{
+    padding: .8rem 2.3rem;
+    background-color: #87f8ae ;
+    font-weight: 600;
+    color: #29335c;
+    outline: none;
+    border: none;
+    
+}
+
+.worker-image-container{
+  margin-top: 1rem;
+  position: relative;
+  background-color: #29335c;
+  min-height: 110vh;
+}
+
+.worker-image-container .wave-img{
+    width: 100%;
+    display: none;
+    height: 100vh;
+}
+
+@media screen and (min-width: 50em){
+  .worker-image-container .wave-img{
+    height: auto;
+    display: inline;
+  }
+}
+
+
+.worker-image-container .image-text{
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 30em) {
+  .worker-image-container .image-text{
+    flex-direction: row;
+  }
+}
+
+.image-text .worker-image{
+  width: min(90%,450px);
+  height: auto;
+}
+
+.image-text div{
+  max-width: 350px;
+  padding: .5rem;
+}
+
+
+
+.worker-image-description{
+    color: #fff;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+@media screen and (min-width: 50em){
+  .worker-image-description{
+    font-size: 1.5rem;
+  }
+}
+
+.worker-image-heading{
+  color: #0066ff;
+  font-size: clamp(1rem, 10vw + .5rem, 2rem);
+}
